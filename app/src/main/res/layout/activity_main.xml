@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etFirstOperand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First operand" />
+
+    <EditText
+        android:id="@+id/etSecondOperand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second operand" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plus" />
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Substract" />
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiply" />
+
+        <Button
+            android:id="@+id/btnDevi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Devision" />
+    </LinearLayout>
+
+</LinearLayout>
